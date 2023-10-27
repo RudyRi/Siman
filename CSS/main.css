@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo:wght@500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    
+}
+
+body{
+    width: 100%;
+}
+
+.header{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 0;
+    background-color: white;
+    font-family: 'Fredoka', sans-serif;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px;
+    z-index: 999;
+    position: sticky;
+    top: 0;
+}
+
+.header-image{
+    align-items: flex-end;
+    height: 6vw;
+    object-fit: contain;
+    padding: 0 20px;
+}
+
+.title-ecommerce{
+    text-decoration: none;
+    font-family: 'Fredoka', sans-serif;
+    color: #9F4340;
+    font-weight: 700;
+    font-size: 36px;
+    text-shadow: rgba(12, 12, 12, 0.8) 3px 2px;
+}
+
+.navbar-list{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    font-family: 'Playpen Sans',cursive;
+    font-weight: 600;
+}
+
+.navbar{
+    font-family: 'Fredoka', sans-serif;
+}
+
+.item{
+    font-family: 'Fredoka', sans-serif;
+}
+.navbar-list li{
+    padding: 0 20px;
+    list-style: none;
+}
+.navbar-list li a{
+    text-decoration: none;
+    color: black;
+}
+
+.navbar-list li a:hover{
+    color: #04698a;
+    text-shadow: rgba(255, 255, 255, 0.5) 1px 1px;
+}
+
+.hero{
+    background-image: url(https://www.lavanguardia.com/files/image_449_220/uploads/2023/05/03/64521711f1fe5.jpeg);
+    height: 90vh;
+    width: 100%;
+    background-size: cover;
+    background-position: top;
+    display: flex;
+    font-family: 'Fredoka', sans-serif;
+    flex-direction: column;
+    align-items: flex;
+}
