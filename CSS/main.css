@@ -65,18 +65,59 @@ body{
 }
 
 .navbar-list li a:hover{
-    color: #04698a;
+    color: #9F4340;
     text-shadow: rgba(255, 255, 255, 0.5) 1px 1px;
 }
 
-.hero{
-    background-image: url(https://www.lavanguardia.com/files/image_449_220/uploads/2023/05/03/64521711f1fe5.jpeg);
+.hero-background{
+    object-fit: cover;
+    background-image: url(https://res.cloudinary.com/dgxmqoyv4/image/upload/v1698447189/444-01_wx4qtn.svg);
     height: 90vh;
     width: 100%;
+    background-repeat: repeat;
     background-size: cover;
     background-position: top;
+    font-family: 'Fredoka', sans-serif;
+    opacity: 35%;
+}
+
+.hero{
+    height: 90vh;
+    background-size:cover;
+    background-position:center;
     display: flex;
     font-family: 'Fredoka', sans-serif;
     flex-direction: column;
     align-items: flex;
+}
+
+.footer{
+    height:10%;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 0;
+    background-color: white;
+    font-family: 'Fredoka', sans-serif;
+    box-shadow: rgba(0, 0, 0, 0.35) 8px 1px 1px 6px;
+    z-index: 998;
+    bottom: 0;
+    object-fit: cover;
+    flex-wrap: wrap;
+}
+
+.social-images{
+    align-items: flex-end;
+    height: 2vw;
+    object-fit: contain;
+    padding: 0 20px;
+}
+
+.social-images a:hover{
+    color: #9F4340;
+}
+
+.footer-text{
+    width: 100%;
 }
